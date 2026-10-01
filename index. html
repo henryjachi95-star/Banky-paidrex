@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paidrex — Smart Finance. Simplified.</title>
+
+    <meta
+        name="description"
+        content="Paidrex — Smart Finance and Web Development."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MAIN PAGE -->
+    <main class="page">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="logo">
+                <span class="logo-icon">P</span>
+                <span>Paidrex</span>
+            </div>
+
+            <div class="tagline">
+                Smart Finance. Simplified.
+            </div>
+
+            <div class="month">
+                Happy New Month
+            </div>
+
+        </header>
+
+
+        <!-- WEB DEVELOPMENT SECTION -->
+        <section class="web-section">
+
+            <div class="web-text">
+
+                <span class="small-label">
+                    WEB DEVELOPMENT
+                </span>
+
+                <h1>
+                    Turn Your Ideas
+                    <br>
+                    Into <span>Websites.</span>
+                </h1>
+
+                <p>
+                    We create modern, responsive and professional
+                    websites for businesses, brands and individuals.
+                </p>
+
+                <div class="features">
+
+                    <div class="feature">
+                        <span>✓</span>
+                        Business Website
+                    </div>
+
+                    <div class="feature">
+                        <span>✓</span>
+                        Portfolio
+                    </div>
+
+                    <div class="feature">
+                        <span>✓</span>
+                        E-Commerce
+                    </div>
+
+                    <div class="feature">
+                        <span>✓</span>
+                        Landing Page
+                    </div>
+
+                </div>
+
+                <button class="primary-btn" onclick="contactUs()">
+                    Build Your Website →
+                </button>
+
+            </div>
+
+
+            <!-- LAPTOP -->
+            <div class="laptop-area">
+
+                <div class="laptop">
+
+                    <div class="screen">
+
+                        <div class="browser-bar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="code">
+
+                            <p>
+                                <span class="purple">&lt;html&gt;</span>
+                            </p>
+
+                            <p class="indent">
+                                <span class="blue">&lt;h1&gt;</span>
+                            </p>
+
+                            <p class="indent2">
+                                Build Your Future
+                            </p>
+
+                            <p class="indent">
+                                <span class="blue">&lt;/h1&gt;</span>
+                            </p>
+
+                            <p class="indent">
+                                <span class="purple">&lt;button&gt;</span>
+                            </p>
+
+                            <p class="indent2">
+                                Get Started
+                            </p>
+
+                            <p class="indent">
+                                <span class="purple">&lt;/button&gt;</span>
+                            </p>
+
+                            <p>
+                                <span class="purple">&lt;/html&gt;</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="laptop-base"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CRYPTO SECTION -->
+        <section class="crypto-section">
+
+            <div class="crypto-text">
+
+                <span class="small-label">
+                    CRYPTO EXCHANGE
+                </span>
+
+                <h2>
+                    Buy & Sell Crypto
+                    <br>
+                    <span>Easily & Securely.</span>
+                </h2>
+
+                <p>
+                    A simple and modern crypto experience designed
+                    to make digital assets easier to understand.
+                </p>
+
+                <div class="coins">
+
+                    <div class="coin btc">
+                        ₿
+                    </div>
+
+                    <div class="coin eth">
+                        Ξ
+                    </div>
+
+                    <div class="coin usdt">
+                        ₮
+                    </div>
+
+                    <div class="coin sol">
+                        S
+                    </div>
+
+                </div>
+
+                <button class="crypto-btn" onclick="learnCrypto()">
+                    Explore Platform
+                </button>
+
+            </div>
+
+
+            <!-- PHONE -->
+            <div class="phone-area">
+
+                <div class="phone">
+
+                    <div class="phone-notch"></div>
+
+                    <div class="phone-content">
+
+                        <div class="phone-top">
+                            <strong>Paidrex</strong>
+                            <span>•••</span>
+                        </div>
+
+                        <div class="balance-title">
+                            Total Balance
+                        </div>
+
+                        <div class="balance">
+                            $24,680.50
+                        </div>
+
+                        <div class="balance-change">
+                            +12.48% Today
+                        </div>
+
+                        <div class="chart">
+
+                            <div class="chart-line"></div>
+
+                        </div>
+
+                        <div class="asset-title">
+                            Your Assets
+                        </div>
+
+                        <div class="asset">
+
+                            <div class="asset-icon bitcoin">
+                                ₿
+                            </div>
+
+                            <div>
+                                <strong>Bitcoin</strong>
+                                <small>BTC</small>
+                            </div>
+
+                            <div class="asset-price">
+                                $12,840
+                            </div>
+
+                        </div>
+
+
+                        <div class="asset">
+
+                            <div class="asset-icon ethereum">
+                                Ξ
+                            </div>
+
+                            <div>
+                                <strong>Ethereum</strong>
+                                <small>ETH</small>
+                            </div>
+
+                            <div class="asset-price">
+                                $6,240
+                            </div>
+
+                        </div>
+
+
+                        <div class="asset">
+
+                            <div class="asset-icon tether">
+                                ₮
+                            </div>
+
+                            <div>
+                                <strong>Tether</strong>
+                                <small>USDT</small>
+                            </div>
+
+                            <div class="asset-price">
+                                $3,200
+                            </div>
+
+                        </div>
+
+                        <div class="phone-buttons">
+
+                            <button onclick="buyCrypto()">
+                                Buy
+                            </button>
+
+                            <button onclick="sellCrypto()">
+                                Sell
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <div class="website">
+                www.paidrex.com
+            </div>
+
+            <div class="thanks">
+                Thank you <span>♥️</span>
+            </div>
+
+            <div class="footer-logo">
+                <span class="logo-icon small">P</span>
+                Paidrex
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- POPUP -->
+    <div id="popup" class="popup">
+
+        <div class="popup-box">
+
+            <button class="close" onclick="closePopup()">
+                ×
+            </button>
+
+            <div class="popup-icon">
+                P
+            </div>
+
+            <h3 id="popup-title">
+                Welcome to Paidrex
+            </h3>
+
+            <p id="popup-message">
+                Thanks for your interest in Paidrex.
+            </p>
+
+            <button
+                class="popup-button"
+                onclick="closePopup()"
+            >
+                Continue
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
